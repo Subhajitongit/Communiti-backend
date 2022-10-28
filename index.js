@@ -25,6 +25,10 @@ mongoose
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Welcome to communitiAPI");
+});
+
 const server = app.listen(process.env.PORT || 8080, () =>
   console.log(`Server started on ${process.env.PORT}`)
 );
