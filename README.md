@@ -1,5 +1,7 @@
 # Communiti-backend
 
+### `API Routes`
+
 Login User: HOST/api/auth/login
 
 Signup User: HOST/api/auth/register
